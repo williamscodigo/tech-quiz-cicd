@@ -21,6 +21,10 @@ jobs:
           npm install
           npm run test-component
 
+      # Debug Deploy URL (for troubleshooting)
+      - name: Debug Deploy URL
+        run: echo "Deploy URL: $DEPLOY_URL"
+
       # Trigger Render Deploy Hook
       - name: Deploy
         env:
