@@ -68,14 +68,14 @@ You can run this project in your local evironment, follow these steps:
     3. setup and run (local)
     4. publish app on render (will need to get Atlas database url connection)
     5. navigate to the Settings option and turn off Auto-Deploy (render)
-    6. copy the _deploy-hook_ URL (render) and add it to github actions (github)
+    6. copy the _deploy-hook_ URL (render) and add it to github actions repository secrets (github)
     7. review yml files inside .github/workflows (local)
     8. merging a PR to develop branch will trigger compoenent tests
-    9. merging a PR from develop to main will trigger an app deployment (render)
+    9. merging a PR from develop to main will trigger a push to main which will trigger an app deployment (render)
 
 ## Usage
 
-Application Live on Render: 
+Application Live On Render: [https://tech-quiz-cicd.onrender.com/](https://tech-quiz-cicd.onrender.com/)
 
 
 ## License
